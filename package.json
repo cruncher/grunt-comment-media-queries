@@ -1,0 +1,50 @@
+{
+  "name": "grunt-comment-media-queries",
+  "description": "Removes media queries to generate stylesheets for old IE. The content of those media queries is left alone. This is crude, and is only useful if CSS is written mobile-first.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cruncher/grunt-comment-media-queries",
+  
+  "author": {
+    "name": "stephband",
+    "email": "stephband@cruncher.ch",
+    "url": "cruncher.ch"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cruncher/grunt-comment-media-queries.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/cruncher/grunt-comment-media-queries/issues"
+  },
+  
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  
+  "main": "Gruntfile.js",
+  
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  
+  "scripts": {
+    "test": "grunt test"
+  },
+  
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  
+  "keywords": [
+    "gruntplugin"
+  ]
+}
