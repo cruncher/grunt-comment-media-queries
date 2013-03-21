@@ -14,26 +14,17 @@ module.exports = function(grunt) {
   grunt.initConfig({
     // Before generating any new files, remove any previously-created files.
     clean: {
-      tests: ['tmp'],
+      tests: ['tmp']
     },
 
     // Configuration to be run (and then tested).
     "comment-media-queries": {
       default_options: {
         files: {
-          'tmp/test_ie.css': ['test/fixtures/test'],
+          'tmp/test_ie.css': ['test/fixtures/test']
         }
       }
-    },
-
-    // Configuration to be run (and then tested).
-    "rem-to-px": {
-      default_options: {
-        files: {
-          'tmp/test_ie.css': ['tmp/test_ie.css'],
-        }
-      }
-    },
+    }
   });
 
   // Actually load this plugin's task(s).
@@ -44,5 +35,5 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('default', ['clean', 'comment-media-queries', 'rem-to-px']);
+  grunt.registerTask('default', ['clean', 'comment-media-queries']);
 };
