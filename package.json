@@ -1,6 +1,6 @@
 {
   "name": "grunt-comment-media-queries",
-  "description": "Removes media queries to generate stylesheets for old IE. The content of those media queries is left alone. This is crude, and is only useful if CSS is written mobile-first.",
+  "description": "Removes media queries to generate stylesheets for old IE. The content of those media queries is left alone. This is crude, and is only useful if CSS is written mobile-first order.",
   "version": "0.1.0",
   "homepage": "https://github.com/cruncher/grunt-comment-media-queries",
   
