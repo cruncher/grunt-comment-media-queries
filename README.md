@@ -14,7 +14,7 @@ npm install grunt-comment-media-queries --save-dev
 One the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('comment-media-queries');
+grunt.loadNpmTasks('grunt-comment-media-queries');
 ```
 
 ## The "comment-media-queries" task
